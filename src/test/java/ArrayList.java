@@ -8,6 +8,11 @@ public class ArrayList {
         gehalt.add(2000);
         System.out.println(gehalt);
 
+        for (Integer w: gehalt
+             ) {
+            System.out.println(w);
+        }
+
 
 
     }
