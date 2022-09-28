@@ -12,6 +12,12 @@ public class ArrayList {
              ) {
             System.out.println(w);
         }
+        
+        
+        for (Integer w: gehalt
+             ) {
+            System.out.println(w);
+        }
 
 
 
