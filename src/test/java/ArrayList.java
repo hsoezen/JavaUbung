@@ -1,10 +1,14 @@
-import java.util.Arrays;
-
 public class ArrayList {
 
     public static void main(String[] args) {
-        String a[] = {"Ali","Veli"};
-        System.out.println(Arrays.toString(a));
-        System.out.println(a.length);
+
+        java.util.ArrayList<Integer> gehalt = new java.util.ArrayList<>();
+
+        gehalt.add(1200);
+        gehalt.add(2000);
+        System.out.println(gehalt);
+
+
+
     }
 }
